@@ -1,0 +1,17 @@
+.popup-content {
+  background-color: #ffffff;
+  height: 83%;
+  width: 50%;
+  padding: 10px;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 576px) {
+  .popup-content {
+    height: 45%;
+    width: 80%;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+  }
+}
